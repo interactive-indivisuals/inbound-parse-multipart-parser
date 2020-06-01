@@ -1,23 +1,32 @@
 {
-  "name": "inbound-parse-multipart-parser",
+  "name": "@interactive-indivisuals/inbound-parse-multipart-parser",
   "version": "1.0.0",
-  "description": "A javascript/nodejs multipart/form-data parser which operates on data from SendGrid's Inbound Parse Webhook. e.g. A SendGrid Inbound Parse webhook pointing to an Azure Function.",
+  "description": "A NodeJS multipart/form-data parser which operates on data received from SendGrid's Inbound Parse Webhook.",
   "main": "multipart.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "sendgrid inbound parse",
-    "multipart/form-data"
+    "interactive-indivisuals",
+    "multipart",
+    "multipart/form-data",
+    "Multipart Parser",
+    "sendgrid",
+    "SendGrid",
+    "inbound-parse",
+    "Inbound Parse Webhook"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Allistair Vilakazi",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlliVil/inbound-parse-multipart-parser.git"
+    "url": "git+https://github.com/interactive-indivisuals/inbound-parse-multipart-parser.git"
   },
   "bugs": {
-    "url": "https://github.com/AlliVil/inbound-parse-multipart-parser/issues"
+    "url": "https://github.com/interactive-indivisuals/inbound-parse-multipart-parser/issues"
   },
-  "homepage": "https://github.com/AlliVil/inbound-parse-multipart-parser#readme"
+  "homepage": "https://github.com/interactive-indivisuals/inbound-parse-multipart-parser#readme"
 }

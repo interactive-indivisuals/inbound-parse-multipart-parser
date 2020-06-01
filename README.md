@@ -1,12 +1,12 @@
 # inbound-parse-multipart-parser
 
-A javascript/nodejs multipart/form-data parser which operates on data from SendGrid's Inbound Parse Webhook.
-
-For example, a SendGrid Inbound Parse webhook pointing to an Azure Function
+A NodeJS multipart/form-data parser which operates on data received from SendGrid's Inbound Parse Webhook.
 
 # author
 
-Cristian Salazar was the author of the original parser. You can find the original [here][https://github.com/freesoftwarefactory/parse-multipart#readme]. I, Allistair Vilakazi, just adapted the code to be able to parse the specific multipart/form-data format of SendGrid's Inbound Parse Webhook.
+Cristian Salazar was the author of the original parser. You can find the original [here](https://github.com/freesoftwarefactory/parse-multipart#readme).
+
+Interactive IndiVisuals' developer teams adapted the code to be able to parse the specific multipart/form-data format of SendGrid's Inbound Parse Webhook.
 
 # Background
 

@@ -1,6 +1,6 @@
 {
   "name": "@interactive-indivisuals/inbound-parse-multipart-parser",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A NodeJS multipart/form-data parser which operates on data received from SendGrid's Inbound Parse Webhook.",
   "main": "multipart.js",
   "scripts": {
